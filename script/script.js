@@ -30,7 +30,7 @@ function createSkillsFromJSON() {
     row.classList.add("row");
 
     // Load the JSON file
-    fetch("data/skills.json")
+    fetch(`../data/skills.json`)
         .then((response) => response.json())
         .then((data) => {
             // Iterate through the JSON data and create HTML elements
@@ -66,7 +66,7 @@ function createPortfolioFromJSON() {
     row.classList.add("row");
 
     // Load the JSON file
-    fetch("data/portfolio.json")
+    fetch("../data/portfolio.json")
         .then((response) => response.json())
         .then((data) => {
             // Iterate through the JSON data and create HTML elements
@@ -87,7 +87,7 @@ function createPortfolioFromJSON() {
                 `;
 
                 // Append the card to the current row
-                row.apendChild(card);
+                row.appendChild(card);
 
                 // If the index is a multiple of 3 or it's the last element, create a new row
                 if ((index + 1) % 3 === 0 || index === data.length - 1) {
