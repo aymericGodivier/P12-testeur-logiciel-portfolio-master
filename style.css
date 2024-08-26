@@ -29,6 +29,7 @@
     background: url("images/image1.jpg");
     background-size: cover;
     position: relative;
+    background-color: black;
 }
 /* text css above hero image*/
 .hero_title {

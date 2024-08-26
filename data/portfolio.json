@@ -2,18 +2,21 @@
     {
         "image": "image1.png",
         "title": "Booki",
+        "alt" : "image d'une chambre avec le logo Booki",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "link": "#"
     },
     {
         "image": "image2.png",
         "title": "Mon Vieux grimoire",
+        "alt" : "piles de livres et le logo Mon Vieux Grimoire",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "link": "#"
     },
     {
         "image": "image3.png",
         "title": "Kasa",
+        "alt" : "image d'un salon avec le logo Kasa",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "link": "#"
     }
