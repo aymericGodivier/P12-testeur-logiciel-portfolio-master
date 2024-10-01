@@ -17,13 +17,13 @@
     padding-bottom: 4rem;
 }
 
+.navbar{
+    background-color: black;
+}
+
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: #5b5b5b;
-}
-
-.navbar-brand {
-    background-color: black;
 }
 
 /* hero background image */
@@ -34,6 +34,10 @@
     background-size: cover;
     position: relative;
     background-color: black;
+}
+
+.nav-link{
+    color: white!important;
 }
 /* text css above hero image*/
 .hero_title {
